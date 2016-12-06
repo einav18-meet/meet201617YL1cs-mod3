@@ -1,8 +1,8 @@
 #This script performs some simple tests on the UserAccount class.
-import UserAccount
+from UserAccount import UserAccount
 
 #Three things are missing from the line below - fill them in
-my_user=UserAcount("einav18-meet","meetyear18","I LOVE PIZZA")
+my_user=UserAccount("einav18-meet","meetyear18","I LOVE PIZZA")
 
 #Call the print_secret method (function) - it takes one input - a guess for the password.
 
