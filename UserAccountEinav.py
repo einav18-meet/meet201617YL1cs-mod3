@@ -22,7 +22,7 @@ class UserAccount :
 
         :param password_attempt: guess for the password (string)
         """
-        if password_attempt == password:
+        if password_attempt == self.password:
             print(secret)
             
            
