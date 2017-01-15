@@ -22,8 +22,9 @@ class UserAccount :
 
         :param password_attempt: guess for the password (string)
         """
-        if password_attempt == password:
-            print(secret)
+        
+        if password_attempt == self.password:
+            print(self.secret)
             
            
         #Complete this method - check the input variable, password_attempt,
