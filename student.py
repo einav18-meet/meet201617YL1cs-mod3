@@ -14,6 +14,8 @@ class Student :
     def get_giraffe_gap(self, heigh):
         self.heigh = heigh
         average = 500-self.heigh
+        return average
         
         
+
 
